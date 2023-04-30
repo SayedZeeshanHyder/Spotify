@@ -1,0 +1,653 @@
+.box1{
+    background-color: orange;
+    width: 350px;
+    height: 100px;
+    border-radius: .5rem;
+    color: white;
+}
+.box2{
+    margin-top: 10px;
+    background-color: lightseagreen;
+    width: 350px;
+    height: 480px;
+    border-radius: .5rem;
+    color: white;
+}
+.box3{
+    background-color: lightsalmon;
+    overflow-y: scroll;
+    padding-left: 10px;
+    width: 1150px;
+    height: 580px;
+    border-radius: .5rem;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    left: 360px;
+    top: 0%;
+    position: absolute;
+}
+.box4{
+    margin-top: 10px;
+    background-color: red;
+    width: 1490px;
+    height: 100px;
+    border-radius: .5rem;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.sing{
+    width: 5%;
+    height: 80%;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 1rem;
+}
+.songname{
+    bottom: 3%;
+    left: 8%;
+    position: absolute;
+}
+.songname:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.singername{
+    bottom: -2%;
+    left: 8%;
+    position: absolute;
+}
+.singername:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.heart{
+    color: white;
+    bottom: 2%;
+    left: 22%;
+    position: absolute;
+}
+.heart:hover{
+    cursor: pointer;
+}
+.picicon{
+    color: white;
+    width: 30px;
+    height: 30px;
+    bottom: 1.5%;
+    left: 24%;
+    position: absolute;
+}
+.picicon:hover{
+    cursor: pointer;
+}
+.range{
+    color: white;
+    width: 500px;
+    bottom: -2%;
+    left: 36%;
+    position: absolute;
+}
+.shuffle{
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 2.5%;
+    left: 41%;
+    position: absolute;
+}
+.shuffle:hover{
+    cursor: pointer;
+}
+.previous{
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 2.5%;
+    left: 45%;
+    position: absolute;
+}
+.previous:hover{
+    cursor: pointer;
+}
+.play{
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 2.5%;
+    left: 49%;
+    position: absolute;
+}
+.play:hover{
+    cursor: pointer;
+}
+.next{
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 2.5%;
+    left: 53%;
+    position: absolute;
+}
+.next:hover{
+    cursor: pointer;
+}
+.repeat{
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 2.5%;
+    left: 57%;
+    position: absolute;
+}
+.repeat:hover{
+    cursor: pointer;
+}
+.timeline1{
+    font-size: 20px;
+    color: white;
+    bottom: -7%;
+    left: 33%;
+    position: absolute;
+}
+.timeline2{
+    font-size: 20px;
+    color: white;
+    bottom: -7%;
+    left: 70%;
+    position: absolute;
+}
+.volume{
+    color: white;
+    width: 85px;
+    bottom: 3.5%;
+    right: 2%;
+    position: absolute;
+    color: blue;
+}
+.lyrics{
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 2%;
+    right: 18%;
+    position: absolute;
+}
+.lyrics:hover{
+    cursor: pointer;
+}
+.playlists{
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 2%;
+    right: 15%;
+    position: absolute;
+}
+.playlists:hover{
+    cursor: pointer;
+}
+.device{
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 2%;
+    right: 12%;
+    position: absolute;
+}
+.device:hover{
+    cursor: pointer;
+}
+.vol{
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 2%;
+    right: 9%;
+    position: absolute;
+}
+.vol:hover{
+    cursor: pointer;
+}
+.topbutton1{
+    top: 2%;
+    position: absolute;
+}
+.topbutton2{
+    top: 2%;
+    left: 5%;
+    position: absolute;
+}
+.topbutton1{
+    cursor: pointer;
+}
+.topbutton2{
+    cursor: pointer;
+}
+.upgrade{
+    background-color: white;
+    color: black;
+    border: solid 2px;
+    border-radius: 5rem;
+    width: 100px;
+    height: 34px;
+    top: 2%;
+    left: 77%;
+    position: absolute;
+}
+.upgrade:hover{
+    cursor: pointer;
+}
+.app{
+    background-color: black;
+    color: white;
+    border-radius: 5rem;
+    width: 125px;
+    height: 32.5px;
+    top: 2%;
+    left: 85%;
+    position: absolute;
+}
+.app:hover{
+    cursor: pointer;
+}
+.user{
+    width: 40px;
+    height: 35px;
+    top: 2%;
+    left: 95%;
+    position: absolute;
+}
+.user:hover{
+    cursor: pointer;
+}
+.songs{
+    border-radius: 1rem;
+    width: 90%;
+    height: 65%;
+    top: 3%;
+    position: absolute;
+}
+.songname1{
+    font-size: 23px;
+    top: 67%;
+    position: absolute;
+    border-radius: 1rem;
+}
+.artist1{
+    font-size: 17px;
+    top: 80%;
+    position: absolute;
+}
+.artist1:hover{
+    text-decoration: underline;
+}
+.block1a{
+    top: 22%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block1a:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: .5rem;
+}
+.block2a{
+    top: 22%;
+    left: 20%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block2a:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: .5rem;
+}
+.block3a{
+    top: 22%;
+    left: 40%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block3a:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: .5rem;
+}
+.block4a{
+    top: 22%;
+    left: 60%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block4a:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: .5rem;
+}
+.block5a{
+    top: 22%;
+    left: 80%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block5a:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: .5rem;
+}
+.block1b{
+    top: 85%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block1b:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    border-radius: .5rem;
+}
+.block2b{
+    top: 85%;
+    left: 20%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block2b:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    border-radius: .5rem;
+}
+.block3b{
+    top: 85%;
+    left: 40%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block3b:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    border-radius: .5rem;
+    
+}
+.block4b{
+    top: 85%;
+    left: 60%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block4b:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    border-radius: .5rem;
+}
+.block5b{
+    top: 85%;
+    left: 80%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block5b:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    border-radius: .5rem;
+}
+.libicon{
+    top: 17%;
+    left: 1%;
+    position: absolute;
+}
+.libicon:hover{
+    color: white;
+    cursor: pointer;
+}
+.library{
+    top: 16%;
+    left: 5%;
+    position: absolute;
+    color: white;
+}
+.library:hover{
+    color: black;
+    cursor: pointer;
+}
+.addicon{
+    width: 40px;
+    height: 40px;
+    top: 17%;
+    left: 15%;
+    position: absolute;
+}
+.addicon:hover{
+    color: white;
+    cursor: pointer;
+}
+.nexticon{
+    top: 16.5%;
+    left: 17.5%;
+    position: absolute;  
+}
+.nexticon:hover{
+    color: white;
+    cursor: pointer;
+}
+.playlistbutt{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(52, 48, 48);
+    border-radius: 1rem;
+    color: white;
+    top: 25%;
+    left: 1%;
+    position: absolute;
+}
+.playlistbutt:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.artistbutt{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(52, 48, 48);
+    border-radius: 1rem;
+    color: white;
+    top: 25%;
+    left: 6%;
+    position: absolute;
+}
+.artistbutt:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.search{
+    width: 40px;
+    height: 40px;
+    top: 31%;
+    left: 1%;
+    position: absolute;
+    background: none;
+    border: none;
+}
+.search:hover{
+    background-color: gray;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.searchimg{
+    width: 30px;
+    height: 30px;
+}
+.drop{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    top: 31%;
+    left: 14%;
+    position: absolute;
+    background-color: rgb(52, 48, 48);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+.likedsongs1{
+    top: 36%;
+    left: 1%;
+    position :absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+.lefttext1{
+    top: 34%;
+    left: 5%;
+    position: absolute;       
+}
+.pin{
+    top: 40%;
+    left: 5%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.lefttextpart1{
+    color: gray;
+    top: 37.5%;
+    left: 7%;
+    position: absolute;
+}
+.likedsongs2{
+    top: 44%;
+    left: 1%;
+    position :absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+.lefttext2{
+    top: 42%;
+    left: 5%;
+    position: absolute;       
+}
+.lefttextpart2{
+    color: gray;
+    top: 45%;
+    left: 5%;
+    position: absolute;
+}
+.block1c{
+    top: 145%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block1c:hover{
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: .5rem;
+}
+.block2c{
+    top: 145%;
+    left: 20%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block2c:hover{
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: .5rem;
+}
+.block3c{
+    top: 145%;
+    left: 40%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block3c:hover{
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: .5rem;
+    
+}
+.block4c{
+    top: 145%;
+    left: 60%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block4c:hover{
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: .5rem;
+}
+.block5c{
+    top: 145%;
+    left: 80%;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.block5c:hover{
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: .5rem;
+}
